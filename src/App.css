@@ -1,0 +1,160 @@
+@media screen and (min-width: 600px) {
+  .mainContainer {
+    flex-direction: row;
+  }
+  .dataContainer {
+    flex-direction: row;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainContainer {
+    flex-direction: column;
+  }
+  .dataContainer {
+    flex-direction: column;
+  }
+}
+
+
+.header {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.footer-container {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  color: gray;
+  margin-top: 10px;
+}
+
+.bio {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.connectWallet {
+  text-align: center;
+  color: gray;
+  margin-top: 30px;
+}
+
+.waveForm {
+  text-align: center;
+  color: gray;
+  margin-top: 100px;
+}
+
+.vibes {
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.messagebox { 
+  backgroundColor: "OldLace";
+  marginTop: "16px";
+  padding: "8px";
+}
+
+.button {
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin: 5px;
+}
+
+.loading-message {
+  display: none;
+}
+
+.loading-message.visible {
+  display: block;
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+    animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+  
+.loading-message.hidden {
+  display: none;
+}
+
+.success-message {
+  display: none;
+}
+
+.success-message.visible {
+  display: block;
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+}
+
+.success-status.hidden {
+  display: none;
+}
+
+.good-vibes-message {
+  display: none;
+}
+
+.good-vibes-message.visible {
+  display: block;
+  text-align: center;
+  color: gray;
+  margin-top: 16px;
+    animation: pulse 2s infinite;
+    }
+    
+    @keyframes pulse {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+}
+
+.good-vibes-status.hidden {
+  display: none;
+}
+
